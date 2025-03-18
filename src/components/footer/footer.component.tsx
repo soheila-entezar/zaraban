@@ -17,7 +17,7 @@ export default function FooterComponent(): ReactElement {
   return (
     <footer className={styles.footer}>
       <div className={styles.writings}>
-        <div className={styles.logo}>دکتر من</div>
+        <div className={styles.logo}> ضربان</div>
         <p>
           تجربه مشاوره آنلاین و دریافت نوبت از بهترین پزشکان و بیمارستان‌های
           ایران
