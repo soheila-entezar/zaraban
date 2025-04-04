@@ -6,7 +6,7 @@ import FooterComponent from "@/components/footer/footer.component";
 
 import "./globals.css";
 import Image from "next/image";
-import styles from "@/components/footer/footer.module.css";
+
 import footer from "@/assets/background/Footer-Element-2048x339.png";
 
 const vazirmatn = Vazirmatn({
@@ -32,6 +32,7 @@ export default function RootLayout({
         {/*<p className="tagline">*/}
         {/*  نوبت دهی پزشکی، سامانه نوبت دهی اینترنتی بیمارستان و پزشکان*/}
         {/*</p>*/}
+        <p></p>
         <div className="wave">
           <Image className="image" src={footer} alt={""} />
         </div>
