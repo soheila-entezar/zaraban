@@ -10,7 +10,6 @@
   --color-gray-12: hsl(0deg 0% 12%);
   --color-gray-10: hsl(0deg 0% 10%);
 
-
   --color-default-background: var(--color-gray-98);
   --color-default-foreground: var(--color-gray-10);
 
@@ -19,7 +18,7 @@
   --color-primary-lighter: hsl(356, 100%, 60%);
   --color-primary-darker: hsl(356, 100%, 50%);
   --color-primary-opposite: var(--color-gray-90);
---color-gray-footer:hsl(216, 38%, 95%);
+  --color-gray-footer: hsl(216, 38%, 95%);
   --border-radius: 0.875rem;
 
   --full-width: 75rem;
@@ -81,15 +80,14 @@ body {
     padding-block: 1rem;
   }
 }
-.wave{
+.wave {
   width: 100%;
   display: flex;
   justify-content: center;
   padding-inline: 0;
 
-.image{
-  height: auto;
-  width: 100%;
-
-}
+  .image {
+    height: auto;
+    width: 100%;
+  }
 }

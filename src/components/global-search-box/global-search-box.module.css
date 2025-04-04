@@ -19,7 +19,7 @@
 
   > input {
     flex: 1 1 0;
-color: var(--color-gray-16);
+    color: var(--color-gray-16);
     background-color: transparent;
 
     padding: 1rem;
@@ -40,8 +40,7 @@ color: var(--color-gray-16);
 
   .suffix {
     & button {
-
-    color: var(--color-gray-10);
+      color: var(--color-gray-10);
       background-color: var(--color-gray-98);
       display: flex;
       align-items: center;
