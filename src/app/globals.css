@@ -86,6 +86,7 @@ body {
   display: flex;
   justify-content: center;
   padding-inline: 0;
+  height: 100px;
 
   .image {
     height: auto;
