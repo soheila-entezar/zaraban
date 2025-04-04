@@ -10,15 +10,16 @@
   --color-gray-12: hsl(0deg 0% 12%);
   --color-gray-10: hsl(0deg 0% 10%);
 
-  --color-default-background: var(--color-gray-10);
-  --color-default-foreground: var(--color-gray-98);
 
-  --color-primary: hsl(120deg 50% 48%);
+  --color-default-background: var(--color-gray-98);
+  --color-default-foreground: var(--color-gray-10);
+
+  --color-primary: hsl(356, 100%, 65%);
   --color-primary-fade: hsl(120deg 50% 96%);
-  --color-primary-lighter: hsl(120deg 50% 52%);
-  --color-primary-darker: hsl(120deg 50% 44%);
-  --color-primary-opposite: var(--color-gray-10);
-
+  --color-primary-lighter: hsl(356, 100%, 60%);
+  --color-primary-darker: hsl(356, 100%, 50%);
+  --color-primary-opposite: var(--color-gray-90);
+--color-gray-footer:hsl(216, 38%, 95%);
   --border-radius: 0.875rem;
 
   --full-width: 75rem;
@@ -58,7 +59,7 @@ a {
   text-decoration: none;
 }
 p {
-  color: var(--color-gray-80);
+  color: var(--color-gray-10);
 }
 html {
   color-scheme: dark;
@@ -75,8 +76,20 @@ body {
   }
 
   .tagline {
-    background-color: var(--color-gray-16);
+    background-color: var(--color-gray-70);
     text-align: center;
     padding-block: 1rem;
   }
+}
+.wave{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-inline: 0;
+
+.image{
+  height: auto;
+  width: 100%;
+
+}
 }
