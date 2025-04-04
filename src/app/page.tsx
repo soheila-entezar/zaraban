@@ -8,7 +8,7 @@ export default function Home(): ReactElement {
   return (
     <div className={styles.home}>
       <h1>
-        <LogoZaraban /> نبض
+        <LogoZaraban width={"60px"} hieght={"60px"} /> نبض
       </h1>
 
       <GlobalSearchBoxComponent />
