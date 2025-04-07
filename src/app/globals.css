@@ -67,9 +67,10 @@ body {
   background-color: var(--color-default-background);
   color: var(--color-default-foreground);
   display: grid;
+  font-size: var(--fz-400);
   grid-template-rows: auto 1fr auto;
   min-block-size: 100vh;
-  min-block-size: 100dvh;
+
   > * {
     padding-inline: var(--full-width-padding-inline);
   }
@@ -85,6 +86,7 @@ body {
   display: flex;
   justify-content: center;
   padding-inline: 0;
+  height: 100px;
 
   .image {
     height: auto;

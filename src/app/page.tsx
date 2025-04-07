@@ -3,7 +3,6 @@ import { ReactElement } from "react";
 import GlobalSearchBoxComponent from "@/components/global-search-box/global-search-box.component";
 import LogoZaraban from "@/logo/logo-zaraban";
 import styles from "./page.module.css";
-
 export default function Home(): ReactElement {
   return (
     <div className={styles.home}>

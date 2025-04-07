@@ -1,10 +1,14 @@
 import * as React from "react";
 
-function LogoZaraban(props) {
+interface Props {
+  width: number | string;
+  height: number | string;
+}
+function LogoZaraban(props: Props) {
   return (
     <svg
       width={props.width}
-      height={props.hieght}
+      height={props.height}
       viewBox="0 0 60 60"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
