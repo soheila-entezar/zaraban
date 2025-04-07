@@ -19,7 +19,7 @@ export default function FooterComponent(): ReactElement {
     <footer className={styles.footer}>
       <div className={styles.writings}>
         <div className={styles.logo}>
-          <LogoZaraban width={"35px"} hieght={"35px"} /> نبض
+          <LogoZaraban width={"35px"} height={"35px"} /> نبض
         </div>
         <p>
           تجربه مشاوره آنلاین و دریافت نوبت از بهترین پزشکان و بیمارستان‌های

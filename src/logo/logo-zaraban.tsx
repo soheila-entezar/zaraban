@@ -4,16 +4,15 @@ interface Props {
   width: number | string;
   height: number | string;
 }
-function LogoZaraban(props: Props) {
+function LogoZaraban({ width, height }: Props) {
   return (
     <svg
-      width={props.width}
-      height={props.height}
+      width={width}
+      height={height}
       viewBox="0 0 60 60"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
-      {...props}
     >
       <circle cx={30} cy={30} r={30} fill="url(#pattern0_35_19)" />
       <defs>
